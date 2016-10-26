@@ -1,0 +1,35 @@
+{
+  "name": "tagbox",
+  "version": "1.0.0",
+  "description": "tagbox react component",
+  "main": "src/tagbox.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dotcor/tagbox.git"
+  },
+  "keywords": [
+    "react-component",
+    "react"
+  ],
+  "author": "Martin Peychev",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": ">=6",
+    "babel-plugin-add-module-exports": ">=0",
+    "babel-preset-es2015": ">=6",
+    "babel-preset-stage-0": "^6.5.0",
+    "react": "^15.2.1"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-0"
+    ],
+    "plugins": [
+      "add-module-exports"
+    ]
+  },
+}
